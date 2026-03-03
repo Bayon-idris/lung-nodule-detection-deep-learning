@@ -32,3 +32,4 @@ Ground Truth Bounding Boxes:
 
 
 See [`eval.ipynb`](./eval.ipynb) for details. This checkpoint is available for download [here](https://huggingface.co/rlsn/DeTr4LungNodule)
+uyyy

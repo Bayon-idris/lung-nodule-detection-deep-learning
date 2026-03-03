@@ -1,13 +1,7 @@
 """
 rlsn 2024
 """
-import numpy as np
-import torch
-from dataset import LUNA16_Dataset, collate_fn, iou_3d
-from transformers import ViTConfig
-from model import VitDet3D
-from transformers import TrainingArguments, Trainer
-from sklearn.metrics import f1_score
+ 
 
 def compute_metrics(eval_pred):
     predictions, groundtruth = eval_pred
